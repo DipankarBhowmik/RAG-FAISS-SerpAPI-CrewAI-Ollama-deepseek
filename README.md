@@ -25,14 +25,14 @@ The pipeline starts with a PDF ingestion phase (using requests + PyPDF2) where d
 
 ### 🛠️Requirements
 Requirements.txt is already given in the repository. 
-It's better if you install:
-langchain-community --upgrade  
-langchain-huggingface --upgrade
+#### It's better if you install:
+#### langchain-community --upgrade  
+#### langchain-huggingface --upgrade
 
 Install Ollama from https://ollama.com/download and let it operate in the background. Then, to pull deepseek-r1:1.5b, use the following command.
-ollama pull deepseek-r1:1.5b
-And connects to a locally running Ollama server at http://localhost:11434
-Get SerpAPI key from https://serpapi.com/
+#### ollama pull deepseek-r1:1.5b
+#### And connects to a locally running Ollama server at http://localhost:11434
+#### Get SerpAPI key from https://serpapi.com/
 
 
 
